@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { selectPicks } from "../store/randomizer";
+import { selectPicks } from "../../store/randomizer";
 
 export function PicksList(props) {
 	const picks = useSelector(selectPicks);

@@ -1,4 +1,4 @@
-import { PicksList } from "../components/PicksList";
+import { PicksList } from "../src/components/PicksList";
 import { useForm } from "react-hook-form";
 import { useAppDispatch } from "../store";
 import { pickItems, selectRandomizer, setItems } from "../store/randomizer";
